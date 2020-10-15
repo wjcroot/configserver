@@ -1,10 +1,17 @@
 spring:
+  rabbitmq:
+    host: 192.168.2.153
+    port: 5672
+    username: root
+    password: root
   cloud:
     consul:
       host: localhost
       port: 8500
       discovery:
         service-name: ${spring.application.name}
+  
+
         
 name: lisi
 
