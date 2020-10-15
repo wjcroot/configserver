@@ -5,6 +5,8 @@ spring:
     username: root
     password: root
   cloud:
+    config:
+      fail-fast: true
     consul:
       host: localhost
       port: 8500
